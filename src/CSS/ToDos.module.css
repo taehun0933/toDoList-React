@@ -1,0 +1,47 @@
+.toDosContainer {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 60%;
+  position: relative;
+  top: 20%;
+}
+
+.toDos {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.toDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.toDoCheckAndContent {
+  display: flex;
+}
+
+.toDoCheckAndContent input {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0;
+  margin-right: 0.8rem;
+}
+
+.toDo button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  font-size: 2rem;
+  color: white;
+}

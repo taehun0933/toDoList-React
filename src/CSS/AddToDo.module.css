@@ -1,0 +1,39 @@
+.addToDo {
+  background-color: #102027;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDoForm {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.toDoForm input {
+  width: 70%;
+  height: 50%;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.toDoForm button {
+  background-color: #b2ebf2;
+  border: none;
+  color: white;
+  width: 30%;
+  height: 50%;
+  font-size: 1.2rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+}
